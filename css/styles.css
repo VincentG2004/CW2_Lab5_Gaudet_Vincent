@@ -91,124 +91,115 @@ header .wrapper {
 }
 
 /* ===== Numéro 4a ===== */
-/*
+
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-repeat: no-repeat;
+    background: no-repeat center right/cover url('../images/hero.jpg');
 }
-*/
+
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
-
+  /*  display: flex;
+    min-height: 650px;
+    flex-direction: column;
+    align-items: center;*/
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-
+    display: flex;
+    min-height: 650px;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    color: #fff;
 }
 
 /* ===== Numéro 4d ===== */
-/*
-.hero h1 {
-    font-weight: 100;
-    font-size: 100px;
-    line-height: 100%;
 
-    font-family: Nunito, sans-serif;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+.hero h1 {
+    font: normal normal 100 10.0rem/100% "Nunito";
+    margin: 0 0 20px 0;
     color: #F2545B;
 }
-*/
-
-/* ===== Numéro 5a ===== */
-/*
-.athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
-}
-*/
-
-/* ===== Numéro 5b ===== */
-/*
-.athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
-}
-*/
 
 /* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
-}
-*/
 
+.athletes {
+    padding: 100px 0;
+}
+
+/* ===== Numéro 5a ===== */
+
+.athletes h2 {
+    font: normal normal bold 5.0rem/100% "Nunito";
+    margin: 0 0 50px 0;
+    letter-spacing: 0.05em;
+}
+
+
+/* ===== Numéro 5b ===== */
+
+.athletes p {
+    margin: 0 0 50px 0;
+}
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
-
+    max-width: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
-
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
 
 
 /* ===== Numéro 6a ===== */
 footer {
-
+    background-color: #000;
 }
 
 footer .wrapper {
-
+    display: flex;
+    justify-content: end;
+    padding: 30px 0;
 }
 
 /* ===== Numéro 6b ===== */
-/*
-.menu-social {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-right: 0;
 
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+.menu-social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
-*/
+
 
 
 /* ===== Numéro 6c ===== */
 
 footer .wrapper .menu-social a {
-
+    color: #fff;
+    background-color: #F2545B;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    display: flex;
+    text-decoration: none;
 }
 
 /* ===== Numéro 6d ===== */
-/*
-.menu-social a:hover {
+
+footer .wrapper .menu-social a:hover {
     background: gray;
 }
-*/
